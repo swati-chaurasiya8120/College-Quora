@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.8.5
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jun 11, 2021 at 04:20 PM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.2
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -13,20 +6,8 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `collegequera`
---
 
--- --------------------------------------------------------
-
---
--- Table structure for table `answer`
---
 
 CREATE TABLE `answer` (
   `aid` int(11) NOT NULL,
@@ -36,9 +17,7 @@ CREATE TABLE `answer` (
   `question` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `answer`
---
+
 
 INSERT INTO `answer` (`aid`, `ans`, `ans_date`, `faculty`, `question`) VALUES
 (1, '     java is oop\n                   \n                    ', '2021-04-04 04:49:58', 2, 2),
